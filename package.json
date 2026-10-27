@@ -1,0 +1,32 @@
+{
+  "name": "cloud-based-courier-tracking-system",
+  "version": "1.0.0",
+  "description": "Full-Stack College Major Project: Cloud-Based Courier Tracking System built with React, Vite, Node.js, Express.js, MongoDB Atlas (Mongoose ODM), and JWT Authentication",
+  "scripts": {
+    "start": "npm --prefix backend start",
+    "dev": "npm --prefix backend run dev",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "seed": "npm --prefix backend run seed",
+    "create-admin": "npm --prefix backend run create-admin"
+  },
+  "keywords": [
+    "courier-tracking",
+    "mern-stack",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "mongodb",
+    "atlas",
+    "jwt",
+    "college-project"
+  ],
+  "author": "College Major Project",
+  "license": "MIT"
+}
